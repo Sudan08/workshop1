@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: white;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: white;
+  
+
+}
+li,a{
+    font-family: 'General Sans', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #06283D;
+    text-decoration: none;
+    display: inline-block;
+    padding:1rem;
+    border-style: solid;
+    background-color: white;
+    border-width:0.1rem;
+    border-color: white;
+    margin: 0.5rem;
+    transition: 0.8s;
+
+
+    
+}
+li a:hover{
+    border-style: solid;
+    border-width:0.1rem;
+    color: white;
+    background-color: black;
+    border-color:white;
+ 
+    transition: 0.8s;
+ 
+}
+.name{
+    margin-right:auto;
+    font-size: 2rem;
+    color:black;
+    border:none ;
+    transition: 3s;
+}
+.name:hover{
+    margin-left: 6rem;
+    border:none;
+    transition: 3s;
+}
+
+
+/* Intro */
+
+.info{
+    display: flex;
+    background-color: white;
+}
+.intro{
+    margin: 10rem 6rem;
+   
+    flex-grow: 8;
+    font-family: 'General Sans', sans-serif;
+    font-weight: 900;
+    font-size: 6rem;
+    color: white;
+    background-color: black;
+    padding:4rem 6rem;
+    transition: 1.5s;
+}
+.intro:hover{
+    color:black;
+    background-color: white;
+    transition: 1.5s;
+
+}
+
+img{
+    margin: 10rem;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 100%;
+    flex-grow: 1;
+
+}
+
+/* Table */
+.table_heading,.form1{
+    font-family: 'General Sans', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+table,th,td{
+    font-size: 1.5rem;
+    font-family: 'General Sans', sans-serif;
+    font-weight: 600;
+    border-style: solid;
+    border-collapse:collapse ;
+    border-color: black;
+    border-width: 1px;
+    text-align: center;
+    margin: 1.5rem;
+    padding:3rem;
+
+}
+th{
+    color: white;
+    background-color: black;
+    border-color:white;
+
+}
+th,tr{
+    width: 20%;
+}
+td:hover {
+    color: white;
+    background-color: black;
+    border-color:white;
+
+}
+
+/* form */
+form{
+    background-color: black;
+    padding: 1.5rem;
+}
+label{
+    color: white;
+    font-family: 'General Sans', sans-serif;
+    font-size: 1.3rem;
+    margin: 0.5rem 2rem;
+
+}
+input{
+    font-family: 'General Sans', sans-serif;
+    font-size: 1.3rem;
+    display: inline-block;
+    width: 95%;
+    padding:0.6rem;
+    margin:1rem;
+    background-color:white;
+    color: black;
+    border:1px solid black;
+
+}
+select{
+    font-family: 'General Sans', sans-serif;
+    font-size: 1.3rem;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 1rem;
+    
+}
+.agree{
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'General Sans', sans-serif;
+    font-size: 1.3rem;
+}
+button{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+/* footer */
+
+footer{
+    font-family: 'General Sans', sans-serif;
+    margin-top:5rem;
+    background-color: black;
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 3rem;
+}
+.social{
+    background-color: black;
+    color: white;
+    margin-bottom:2rem ;
+}
